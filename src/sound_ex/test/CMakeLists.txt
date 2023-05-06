@@ -2,5 +2,6 @@ include(Testing)
 
 add_googletest(
     TARGET test_soundex
-    SOURCE_FILES test_soundex.cpp
+    SOURCE_FILES TestSoundex.cpp
+    LIBRARIES soundex
 )
