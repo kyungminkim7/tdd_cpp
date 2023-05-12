@@ -1,1 +1,2 @@
+add_subdirectory(place_description_service)
 add_subdirectory(sound_ex)
